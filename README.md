@@ -145,16 +145,6 @@ Notes:
 - LLM slow: use a smaller model (e.g., `qwen2.5:7b-instruct`) or lower context.
 - CORS: include `http://localhost:5173` in `ALLOWED_ORIGINS`.
 
-## Assumptions
-- Any popular local LLM allowed; Ollama chosen for simplicity/Metal performance.
-- Directions/polyline is intentionally disabled; InfoWindow links to Google Maps for navigation.
-
-## Possible improvements
-- Docker Compose for one‑command spin‑up (Ollama + backend + frontend).
-- Redis for cache/rate‑limit; structured logging/trace IDs.
-- Unit/integration/e2e tests; Storybook for components.
-- Optional Open WebUI wiring for manual prompt engineering.
-
 ## Scripts
 - Backend: `uvicorn app.main:app --reload --port 8000`
 - Frontend: `npm run dev`
