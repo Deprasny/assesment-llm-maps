@@ -1,0 +1,17 @@
+/* Modern Professional Layout */
+.app-layout {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+/* Remove default styles for clean layout */
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+frontend/.env*
+
+# Python / Backend
+backend/.venv/
+backend/__pycache__/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/.env
+
+# Logs
+*.log
+logs/
+
+# IDE/editor
+.vscode/
+.idea/
+*.sw?
+
+# Misc
+coverage/
+.tmp/
